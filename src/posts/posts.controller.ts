@@ -13,6 +13,7 @@ export class PostsController {
         ];
     }
 
+    
     @Get(':id')
     show(@Param() params) {
         return {
